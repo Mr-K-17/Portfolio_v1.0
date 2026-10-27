@@ -1,0 +1,87 @@
+{
+  "file": "lightning.png",
+  "frames": 18,
+  "cellW": 112,
+  "cellH": 66,
+  "fps": 20,
+  "originFacing": "right",
+  "ranges": {
+    "loop": [
+      0,
+      7
+    ],
+    "fade": [
+      8,
+      16
+    ],
+    "flare": 17
+  },
+  "metadata": {
+    "loop_count": 8,
+    "fade_count": 9,
+    "flare_count": 1,
+    "dropped_groups": [
+      {
+        "y_range": [
+          0,
+          120
+        ],
+        "x_range": [
+          337,
+          338
+        ],
+        "lit_pixels": 6,
+        "reason": "fewer than 40 lit pixels"
+      },
+      {
+        "y_range": [
+          0,
+          120
+        ],
+        "x_range": [
+          466,
+          467
+        ],
+        "lit_pixels": 4,
+        "reason": "fewer than 40 lit pixels"
+      },
+      {
+        "y_range": [
+          130,
+          270
+        ],
+        "x_range": [
+          613,
+          619
+        ],
+        "lit_pixels": 16,
+        "reason": "fewer than 40 lit pixels"
+      },
+      {
+        "y_range": [
+          130,
+          270
+        ],
+        "x_range": [
+          660,
+          664
+        ],
+        "lit_pixels": 11,
+        "reason": "fewer than 40 lit pixels"
+      },
+      {
+        "y_range": [
+          270,
+          400
+        ],
+        "x_range": [
+          265,
+          423
+        ],
+        "lit_pixels": 59,
+        "reason": "row 3 debris specks (< 40 lit pixels per component)"
+      }
+    ],
+    "rotation": "90 deg clockwise (np.rot90 k=3)"
+  }
+}

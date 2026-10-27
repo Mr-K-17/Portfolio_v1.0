@@ -1,0 +1,51 @@
+{
+  "idle": {
+    "file": "idle.png",
+    "frames": 4,
+    "cellW": 41,
+    "cellH": 34,
+    "fps": 6,
+    "nativeFacing": "right"
+  },
+  "idle2": {
+    "file": "idle2.png",
+    "frames": 10,
+    "cellW": 43,
+    "cellH": 43,
+    "fps": 6,
+    "nativeFacing": "right"
+  },
+  "idle3": {
+    "file": "idle3.png",
+    "frames": 6,
+    "cellW": 44,
+    "cellH": 33,
+    "fps": 6,
+    "nativeFacing": "right"
+  },
+  "walk": {
+    "file": "walk.png",
+    "frames": 7,
+    "cellW": 48,
+    "cellH": 55,
+    "fps": 10,
+    "nativeFacing": "right"
+  },
+  "jump": {
+    "file": "jump.png",
+    "frames": 6,
+    "cellW": 41,
+    "cellH": 60,
+    "fps": 12,
+    "nativeFacing": "right"
+  },
+  "crouch": {
+    "file": "crouch.png",
+    "frames": 4,
+    "cellW": 48,
+    "cellH": 70,
+    "fps": 6,
+    "nativeFacing": "right",
+    "note": "Row 'b' from source sheet: 4 crouch/bow poses. Saved as crouch.png. Not used in the runner; available for future use."
+  }
+}

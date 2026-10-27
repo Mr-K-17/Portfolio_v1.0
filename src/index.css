@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-crimson: #a9282d;
+  --bg-crimson-rgb: 169, 40, 45;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-crimson);
+  color: #f7f5f0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+/* Typography classes */
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Velvet Card: Flat, deep-velvet surface with 1px border, 16px radius, hover border color change only */
+.velvet-card {
+  background-color: rgba(139, 31, 35, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 1rem;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.velvet-card:hover {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Subtle luxury grain */
+.luxury-grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Vignette effect that blends into the solid red */
+.luxury-vignette {
+  background: radial-gradient(ellipse at center, transparent 40%, rgba(139, 31, 35, 0.4) 100%);
+}
+
+/* Glassmorphism restricted exclusively to top floating header pill */
+.header-glass {
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Accessible focus-visible outline for keyboard navigation */
+:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.85);
+  outline-offset: 2px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #a9282d;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4);
+}

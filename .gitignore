@@ -1,0 +1,23 @@
+# Dependencies & Build Output
+node_modules
+dist
+.vite
+
+# Backups & Archives
+*.zip
+Portfolio_backups/
+
+# Pipelines & Artifacts
+scripts/out
+playwright-report
+test-results
+
+# Environment & Secrets
+.env*
+!.env.example
+
+# Logs & System
+logs
+*.log
+.DS_Store
+Thumbs.db
